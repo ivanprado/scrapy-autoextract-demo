@@ -22,6 +22,9 @@ Installation
 Run
 ---
 
-    SCRAPINGHUB_AUTOEXTRACT_KEY=<your-key> scrapy crawl blog_scrapinghub
+    SCRAPINGHUB_AUTOEXTRACT_KEY=<your-key> scrapy crawl blog_zyte
+
+* If you are in using Windows with Python 3.8+, please, go to ``settings.py`` and uncomment
+  the lines that install the proper event loop policy before running the spider.
 
     

@@ -1,5 +1,9 @@
 # Scrapy settings for scrapy_autoextract_demo project
 
+# Uncomment these two lines for Windows with Python 3.8+
+#import asyncio
+#asyncio.set_event_loop_policy(asyncio.WindowsSelectorEventLoopPolicy())
+
 BOT_NAME = 'scrapy_autoextract_demo'
 
 SPIDER_MODULES = ['scrapy_autoextract_demo.spiders']
